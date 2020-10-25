@@ -11,7 +11,7 @@ agent any
         stage('Master-Test') { 
 
             steps {
-                echo "Hello Jenkins - Test
+                echo "Hello Jenkins - Test"
             }
         
         }
