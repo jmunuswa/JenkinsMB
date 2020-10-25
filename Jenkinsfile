@@ -33,6 +33,13 @@ agent any
                 echo "Hello Jenkins - Monitor"
             }
         }
+
+        stage('Master-Review') { 
+ 
+            steps {
+                echo "Hello Jenkins - Review"
+            }
+        }
  
     }           
  }
