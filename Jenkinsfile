@@ -1,20 +1,37 @@
 pipeline { 
 agent any 
     stages { 
-        stage ('Master Build') { 
+        stage('Master-Build') { 
+
+            steps {
+                echo "Hello Jenkins - Build"
+            }
  
         }
-        stage ('Master Test') { 
+        stage('Master-Test') { 
+
+            steps {
+                echo "Hello Jenkins - Test
+            }
         
         }
-        stage ('Master QA') { 
+        stage('Master-QA') { 
+            steps {
+                echo "Hello Jenkins - QA"
+            }
         
         }
-        stage ('Master Deploy') { 
+        stage('Master-Deploy') { 
+            steps {
+                echo "Hello Jenkins - Deploy"
+            }
         
         }
-        stage ('Master Monitor') { 
+        stage('Master-Monitor') { 
  
+            steps {
+                echo "Hello Jenkins - Monitor"
+            }
         }
  
     }           
